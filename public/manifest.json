@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Close My Tabs",
+    "version": "1.0",
+    "description": "Organize tabs by website, close individual tabs or entire groups.",
+    "permissions": ["tabs"],
+    "host_permissions": ["<all_urls>"],
+    "chrome_url_overrides": {
+      "newtab": "index.html"
+    },
+  "icons": { "16": "icon/16.png", "48": "icon/48.png", "128": "icon/128.png" },
+  "action": {
+    "default_title": "Close My Tabs",
+    "default_icon": "icon/48.png",
+    "default_popup": "index.html",
+    "permissions": ["tabs"]
+  }
+  }
