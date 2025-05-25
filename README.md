@@ -1,28 +1,96 @@
-## Usage
+# 🧠 Close My Tabs
+
+**Close My Tabs** is a Chrome extension that helps you organize and manage your open tabs by grouping them based on **domain**, **subdomain**, or **page title** — and gives you the power to close tabs individually, by group, or all at once.
+
+Built with [Solid.js](https://solidjs.com), [TailwindCSS](https://tailwindcss.com), and [Vite](https://vitejs.dev).
+
+---
+
+## 🚀 Features
+
+- ✅ Group tabs by domain, subdomain, or page title  
+- ✅ Close individual tabs or entire groups with one click  
+- ✅ Clean, fast, and responsive UI (with dark mode support)  
+- ✅ Shows total number of open tabs  
+- ✅ Easy-to-use Chrome Extension with custom new tab override
+
+---
+
+## 📦 Installation
+
+1. Clone the repo:
+
+   ```bash
+   git clone https://github.com/sudheer-salavadi/tab-memory.git
+   cd tab-memory
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Build the extension:
+
+   ```bash
+   npm run build
+   ```
+
+4. Load it in Chrome:
+   - Go to `chrome://extensions`
+   - Enable **Developer mode**
+   - Click **"Load unpacked"**
+   - Select the `dist/` folder
+
+---
+
+## 🔧 Scripts
 
 ```bash
-$ npm install # or pnpm install or yarn install
+npm run dev     # Start development server at http://localhost:5173
+npm run build   # Build extension to dist/
+npm run preview # Preview production build
 ```
 
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
+---
 
-## Available Scripts
+## 🌐 Tech Stack
 
-In the project directory, you can run:
+- **Framework:** [Solid.js](https://solidjs.com)
+- **Styling:** [TailwindCSS](https://tailwindcss.com)
+- **Bundler:** [Vite](https://vitejs.dev)
+- **Charts (optional):** [ECharts](https://echarts.apache.org/)
 
-### `npm run dev`
+---
 
-Runs the app in the development mode.<br>
-Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
+## 📁 Folder Structure
 
-### `npm run build`
+```
+tab-memory/
+├── public/           # manifest.json and icons
+├── src/              # Solid components and styles
+├── dist/             # Final build output
+├── vite.config.js    # Build config with copy plugin for icons
+└── package.json
+```
 
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+## 📜 License
 
-## Deployment
+MIT © [Sudheer Salavadi](https://github.com/sudheer-salavadi)
 
-Learn more about deploying your application with the [documentations](https://vite.dev/guide/static-deploy.html)
+---
+
+## 💡 Future Ideas
+
+- Tab memory usage tracking
+- Auto-clean tab groups by inactivity
+- Keyboard shortcuts for tab actions
+
+---
+
+## 🙌 Contribute or Suggest
+
+Pull requests, issues, and feature suggestions welcome!
