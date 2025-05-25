@@ -1,4 +1,4 @@
-# 🧠 Tidy Tabs
+# 🗂️ Tidy Tabs
 
 **Tidy Tabs** is a Chrome extension that helps you organize and manage your open tabs by grouping them based on **domain**, **subdomain**, or **page title** — and gives you the power to close tabs individually, by group, or all at once.
 
