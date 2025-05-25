@@ -21,8 +21,8 @@ Built with [Solid.js](https://solidjs.com), [TailwindCSS](https://tailwindcss.co
 1. Clone the repo:
 
    ```bash
-   git clone https://github.com/sudheer-salavadi/tab-memory.git
-   cd tab-memory
+   git clone https://github.com/sudheer-salavadi/tidy-tabs.git
+   cd tidy-tabs
    ```
 
 2. Install dependencies:
@@ -67,7 +67,7 @@ npm run preview # Preview production build
 ## 📁 Folder Structure
 
 ```
-tab-memory/
+tidy-tabs/
 ├── public/           # manifest.json and icons
 ├── src/              # Solid components and styles
 ├── dist/             # Final build output

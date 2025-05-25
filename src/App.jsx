@@ -119,7 +119,7 @@ function App() {
         <>
           <h1 class="lg:text-2xl text-lg font-bold mb-2 text-center text-gray-800 dark:text-gray-100">Tidy Tabs</h1>
           <p class="text-center mb-6 text-gray-600 dark:text-gray-400">
-            Total Open Tabs: <span class="font-semibold">{formatTabText(totalTabCount())}</span>
+            Open: <span class="font-semibold">{formatTabText(totalTabCount())}</span>
             <button
               onClick={closeAllTabs}
               class="ml-4 underline text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-500 cursor-pointer"
