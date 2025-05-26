@@ -1,8 +1,7 @@
 # 🗂️ Tidy Tabs
 
-**Tidy Tabs** is a Chrome extension that helps you organize and manage your open tabs by grouping them based on **domain**, **subdomain**, or **page title** — and gives you the power to close tabs individually, by group, or all at once.
-
-Every time you open a new tab (`⌘+T` or `Ctrl+T`), **Tidy Tabs** automatically displays a smart overview of all your open tabs — letting you quickly review, group, and close them to keep your browser clutter-free.
+**Tidy Tabs** is a Chrome extension that helps you quickly close tabs — individually, by group, or all at once — based on **domain**, **subdomain**, or **page title**.
+Every time you open a new tab (`⌘+T` or `Ctrl+T`), **Tidy Tabs** gives you a clean list of all your open tabs and lets you close what you don’t need — fast.
 
 ![Tidy Tabs Screenshot](public/screenshots/tidy-tabs.jpg)
 
@@ -12,11 +11,11 @@ Built with [Solid.js](https://solidjs.com), [TailwindCSS](https://tailwindcss.co
 
 ## 🚀 Features
 
-- ✅ Group tabs by domain, subdomain, or page title  
+- ✅ View all open tabs, organized by **domain**, **subdomain**, or **page title**  
 - ✅ Close individual tabs or entire groups with one click  
 - ✅ Clean, fast, and responsive UI (with dark mode support)  
-- ✅ Shows total number of open tabs  
-- ✅ Easy-to-use Chrome Extension with custom new tab override
+- ✅ See total number of open tabs at a glance  
+- ✅ Replaces the new tab page to help declutter your browser instantly
 
 ---
 
@@ -108,7 +107,6 @@ SOFTWARE.
 
 ## 💡 Future Ideas
 
-- Tab memory usage tracking
 - Auto-clean tab groups by inactivity
 - Keyboard shortcuts for tab actions
 
