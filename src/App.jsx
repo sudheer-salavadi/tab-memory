@@ -117,7 +117,7 @@ function App() {
         </div>
       ) : (
         <>
-          <h1 class="lg:text-2xl text-lg font-bold mb-2 text-center text-gray-800 dark:text-gray-100">Tidy Tabs</h1>
+          <h1 class="lg:text-2xl text-lg font-bold mb-2 text-center text-gray-800 dark:text-gray-100">🗂️ Tidy Tabs</h1>
           <p class="text-center mb-6 text-gray-600 dark:text-gray-400">
             Open: <span class="font-semibold">{formatTabText(totalTabCount())}</span>
             <button
